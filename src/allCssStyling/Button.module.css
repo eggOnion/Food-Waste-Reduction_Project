@@ -1,0 +1,19 @@
+.itemButton {
+    background-color: white; /* Green */
+    border: 2px solid; /* Default border color */
+    color: #662eed;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;    
+  }
+
+  .itemButton:hover {    
+    background-color: #662eed;
+    color: white;
+  }
+

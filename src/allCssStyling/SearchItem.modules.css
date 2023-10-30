@@ -1,0 +1,62 @@
+.searchItems {
+  position: relative;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: lightgrey;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  width: 50%;
+  font-size: 32px;
+}
+
+.searchItems2 {
+  margin-right:auto;
+  margin-left:auto;
+  width:200px;
+}
+
+/* magnifying-icon for search input */
+/* .search-items-container {
+  position: relative;
+} */
+
+.search-input {
+  padding-right: 50px; /* Adjust as needed */  
+}
+
+
+/* old code
+.search-icon{
+  position: absolute;
+  top: 150px;
+  left: 325px; 
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 100%;    
+} */
+
+
+#responsive-icon {
+  width: auto;
+  height: auto;
+}
+
+/* End of magnifying-icon for search input */
+
+/* blue rim around the search input */
+.searchItems {
+  border: 3px solid black; /* Default border color #ccc */
+  padding: 10px;
+  transition: border-color 0.3s; /* Add a smooth transition effect */
+}
+.searchItems:focus {
+  border-color: #007bff; /* Change the border color when input is focused */
+  outline: none; /* Remove the default focus outline (optional) */
+}
+/* end of blue rim around the search input */
